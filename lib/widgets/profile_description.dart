@@ -11,6 +11,9 @@ class ProfileDescription extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 20.0),
       child: RichText(
         text: const TextSpan(
+          style: TextStyle(
+            color: Colors.black,
+          ),
           children: [
             TextSpan(
               text: "Rifaldi Kusnawan",
